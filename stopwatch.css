@@ -1,0 +1,47 @@
+body {
+    background: rgb(9, 61, 79);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 600px;
+    margin: 50px auto;
+    color: antiquewhite;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 3.6em;
+    text-transform: uppercase;
+    margin: 50px auto;
+}
+
+#tens, #seconds{
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+button {
+    border-radius: 6px;
+    background: rgb(9, 61, 79);
+    color: antiquewhite;
+    border: solid 1px antiquewhite;
+    padding: 15px 15px;
+    width: 180px;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin: 40px 5px;
+}
+
+button:hover {
+    background: antiquewhite;
+    color:rgb(9, 61, 79);
+    font-weight: 600;
+}
+
+button:active {
+    transform: scale(0.95);
+    box-shadow: 3px 2px 22px 1px rgb(9, 61, 79);
+}
