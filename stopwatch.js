@@ -29,7 +29,7 @@ window.onload = function() {
         tens++;
 
         if(tens <= 9){
-            appendTens.innerHTML = "0" + minutes;
+            appendTens.innerHTML = "0" + tens;
         }
 
         if(tens > 9){
